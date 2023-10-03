@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+      
+        .link{
+             position:absolute;       
+             left:300px;
+             top:210px;
+             padding:80px;
+
+        }
+        .link a{
+            display:inline;
+            justify-content: center;
+            align-items: center;
+            width:400px;
+            padding:35px;
+            text-align: center;
+            
+        }
+        .link a.active{
+            color:darkgoldenrod;
+        }
+        .pointer{
+            width:8px;
+            height:8px;
+            border-radius: 50%;
+            background-color:darkgoldenrod;
+            transform: translateX(33px);
+            transition: transform 0.3s ease-in-out;
+        }
+        .link a:hover{
+            color:darkgoldenrod;
+            transition:color 0.3s ease-in-out;
+        }
+        .link a:nth-child(2):hover ~ .pointer{
+            transform:translateX(180px);
+        }
+        .link a:nth-child(3):hover ~ .pointer{
+            transform:translateX(305px);
+        }
+        .link a:nth-child(4):hover ~ .pointer{
+            transform:translateX(430px);
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="link">
+        <a class="active" href="#">HOME</a>
+        <a href="#">BLOG</a>
+        <a href="#">WORK</a>
+        <a href="#">ABOUT</a>
+        
+    <div class="pointer"></div>
+    </div>
+</body>
+</html>
