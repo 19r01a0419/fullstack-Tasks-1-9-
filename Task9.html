@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <script src="https://kit.fontawesome.com/390578bbab.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family:sans-serif ;
+        }
+        .navigation{
+            background-color:whitesmoke;
+            border:1px solid black;
+            width:100%;
+            margin:auto;
+        }
+        .navigation > ul{
+            list-style: none;
+            display:flex;
+            justify-content: space-around;
+        }
+        .navigation > ul >li{
+            width:100px;
+        }
+        .navigation > ul > li > a{
+            text-decoration: none;
+            display:block;
+            height:50px;
+            line-height:50px;
+            color:black;
+            
+        }
+        img{
+            width:100%;
+            height:auto;
+        }
+        .content{
+            width:97%;
+            height:auto;
+            border:1px solid black;
+            margin:30px;
+            padding:20px;
+        }
+        .content h1{
+            border:1px solid black;
+            background-color: cadetblue;
+            text-decoration-line: underline;
+            text-align: center;
+        }
+       
+        .content img{
+            border:10px solid paleturquoise;
+            width:70%;
+            height:400px;
+            float: left;
+        }
+        .right-content{
+            padding:8px;
+        }
+       .photos{
+        border:1px solid white;
+        width:100%;
+        height:auto;
+        background-color: gray;
+       }
+        table,tr,td{
+            border:5px solid black;
+            border-collapse :collapse;
+            width:600px;
+            height:600px;
+           margin:4px;
+           margin-left: 20px;
+           background-color: gainsboro;
+        }
+        .pic{            
+            width:350px;
+            height:400px;
+            margin:10px;
+        }
+        /* blog */
+        .section{
+            float:left;
+            width:100%;
+            text-align: center;
+            padding:20px 10px;
+            margin-top:10px;
+            margin-bottom: 10px;
+            background-color: gainsboro;
+        }
+        .section .space{
+            float:left;
+            width:100%;
+        }
+        .section .space .left{
+             width:65%;
+             float:left;
+             padding:0px 10px;
+
+        }
+        .section .space .left .card{
+            padding:20px 15px;
+            background-color: gray;
+            color:white;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .section .space .left .card img{
+            width:80%;
+            height:60%;
+            padding:10px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .section .space .right{
+            width:30%;
+            float:right;
+            padding:0px 10px;
+        }
+        .section .space .right .card{
+            padding:10px 10px;
+            color:white;
+            background-color: gray;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .section .space .right .card img{
+            width:70%;
+            height:50%;
+            padding:10px;
+        }
+        .storage{
+         background-color: black;
+         width:100%;
+            text-align: center;
+            padding:20px 10px;
+            margin-top:10px;
+            margin-bottom: 10px;
+
+        }
+        .storage .left-side{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            float:left;
+            padding:30px;
+        }
+        .storage .right-side{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            float:right;
+            padding:30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-suitcase-rolling">Travel</i></a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Destinations">Destinations</a></li>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="./travel1.jpg">
+    <div id="About" class="content">
+            <h1>“Take only memories, leave only footprints.”</h1><br/>
+            <h2 style="color:hotpink; font-size: x-large; text-align: center;">About Me</h2><br/>
+            <p>Welcome to my travel blog, Love Travelling.  I’m Chennu, an award winning 
+                independent traveller writing about my visits to countries near and far.</p><br/>
+                 I  research destinations myself and that’s part of the fun – visiting the
+                 local library and selecting some travel guides, looking things up online <br/>
+                 and, of course, all the amazing tips I discover from fellow travel bloggers.</p><br/><br/>
+                 <img src="https://travellingassistant.com/wp-content/uploads/2022/03/solo-travel.webp"><br/>
+                <div class="right-content">
+                 <p>
+                    I just love to travel because it makes me realize that the world is so beautiful 
+                    and there is so much to admire and treasure. Furthermore,
+                    Travel takes us out of our comfort zones and inspires us to see, taste and try new things.
+                     It constantly challenges us, not only to adapt to and explore new surroundings, but also 
+                     to engage with different people, to embrace adventures as they come and to share new and 
+                     meaningful experiences with friends and loved ones.
+
+                 </p><br/><br/>
+        <p>
+            My passion is travel,  I just love visiting new places, immersing myself into local cultures
+             of life around the world and discovering the unexpected!  Stepping off a plane, I’m always<br/>
+              in a hurry to get my passport stamped, reclaim my luggage 
+            and walk out of the arrivals hall ready to begin a new adventure.
+        </p></div>
+        <br/><br/>
+        <p><h2>The countries I’ve been fortunate to visit to date are:</h2><br/>
+            Australia,Canada, France, Germany,Italy, Malaysia, Netherlands, New Zealand, 
+            Norway,Singapore,  South Korea, Switzerland, Thailand, Turkey, 
+               United Kingdom, United States.
+           </p>
+    </div>
+     <div id="Destinations" class="photos">
+        <h1>My Favourite Destinations</h1><br/<>
+       <table>
+        <tr>
+            <td>
+                <h3>1.Paris,France-City of lights</h3>
+                <div class="pic">
+            <img src="https://media.istockphoto.com/id/1145422105/photo/eiffel-tower-aerial-view-paris.jpg?s=612x612&w=0&k=20&c=sFn6FwTJR0TpX3rP_W4VHrbkTB__6l5kr-lkkqdYrtE=">
+                
+            <p>Paris, the enchanting 'City of Lights', captivates with its blend of history, art, and romance. Its cobblestone streets lead to iconic landmarks like the Eiffel Tower and Notre-Dame. By night, the Seine River reflects shimmering illuminations, echoing the city's luminous spirit. An epicenter of culture and elegance, Paris remains an eternal muse for visitors from around the globe.</p>
+            <p><b>Best Time:</b> June to August</p>
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+            <td>
+                <h3>2.London,England-The heritage of England</h3>
+                <div class="pic" >
+            <img src="https://businesstraveldestinations.com/wp-content/uploads/2019/04/London-Skyline.jpg">
+                
+            <p>London, the heart of England, stands as a vibrant mosaic of history, culture, and innovation. From the regal
+                 Buckingham Palace and the echoing bells of Big Ben to the modern Shard piercing the skyline, the city embodies the 
+                 nation's heritage. Cobblestone streets,  London offers
+                  an immersive journey through centuries.</p>
+            <p><b>Best Time:</b> April to September</p>
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+            <td>
+                <h3>3.Dubai,UAE-A megacity that never stops growing</h3>
+                <div class="pic" >
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/200924183413-dubai-9-1.jpg?q=x_0,y_0,h_900,w_1599,c_fill/h_720,w_1280">
+                
+            <p>Dubai, a jewel in the UAE's crown, stands as a testament to ambition and innovation. Rising from desert sands, its 
+                skyline boasts architectural marvels like the Burj Khalifa, piercing the heavens. Luxury shopping malls coexist with 
+                historic souks, offering a blend of tradition and modernity. As a city that never stops evolving, Dubai dazzles with 
+                its opulence, technological feats, and a vision that ceaselessly pushes the boundaries of urban development.</p>
+            <p><b>Best Time:</b>  November to April</p>
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+        </tr>
+        <!-- 2 -->
+        <tr>
+            <td>
+                <h3>4.Pyramids Of Giza ,Egypt</h3>
+                <div class="pic">
+            <img src="https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2023-04/shutterstock_2150051319.jpg">
+                
+            <p>The Pyramids of Giza, standing tall on Egypt's desert plains, are enduring symbols of ancient marvel and mystery. 
+                Built as grand tombs for pharaohs, these monumental structures have for millennia captivated imaginations with their
+                 scale and precision. The Sphinx, silent guardian of the pyramids, adds to the enigma. A visit to this UNESCO World 
+                 Heritage site is not just a journey through sand and stone, but a leap back in time to a civilization's zenith.</p>
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+            <td>
+                <h3>5.Maldives,Maldives a tropical Heaven</h3>
+                <div class="pic" >
+            <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2021/05/05125410/22.jpg">
+                
+            <p>The Maldives, an archipelago of over a thousand islands, emerges from the Indian Ocean as a tropical haven. Each atoll,
+                 with its aquamarine waters and powdery white sands, paints a picture of paradise. Overwater bungalows offer uninterrupted
+                  vistas of endless horizons, while vibrant coral reefs beneath the surface teem with marine life. For those seeking 
+                  solitude and luxury embraced by nature's beauty, the Maldives is the quintessential retreat.</p>
+            <p><b>Best Time:</b>Mid December to April</p>
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+            <td>
+                <h3>6.Santaroni,Greece</h3>
+                <div class="pic" >
+            <img src="https://a.cdn-hotels.com/gdcs/production18/d1838/041ae6b1-0a88-4c22-a648-53a22dd4a006.jpg?impolicy=fcrop&w=800&h=533&q=medium">
+                
+            <p>Santorini, perched atop the Aegean Sea, is Greece's postcard-perfect gem. Its iconic white-washed buildings and blue-domed
+                 churches cling to steep cliffs, offering breathtaking sunsets over the caldera. The island's volcanic past has sculpted 
+                 unique beaches with red and black sands. A haven for romantics,
+                  Santorini's enchanting landscapes and azure waters create an unforgettable tableau of Mediterranean beauty and allure.</p>
+            <p><b>Best Time:</b> June to September</p>
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+        </tr>
+        <!-- 3 -->
+        <tr>
+            <td>
+                <h3>7.Mauritius-"Indian Ocean's Island Paradise."
+                </h3>
+                <div class="pic">
+            <img src="https://www.forbesindia.com/media/images/2016/Dec/img_90819_thanda_island.jpg">
+                
+            <p>Mauritius, nestled in the heart of the Indian Ocean, emerges as the quintessential island paradise. Its powdery white 
+                beaches merge seamlessly with cerulean waters, providing a haven for sun-worshippers and water enthusiasts alike. Verdant
+                mountains and sugar cane fields punctuate its landscape, while a rich tapestry of cultures defines its soul.</p>
+                 <p><b>Best Time:</b>July to October (winter)</p>
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+            <td>
+                <h3>8.New Zealand-the Land Where Adventures Wait</h3>
+                <div class="pic" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ4a297vmCt4CBAG4D3kvkZ9hONXyUcxBNQg&usqp=CAU">
+                
+            <p>New Zealand, often dubbed the 'Land Where Adventures Wait', beckons with its juxtaposition of rugged landscapes and serene
+                 vistas. From the snow-capped peaks of the Southern Alps to the otherworldly geothermal terrains of Rotorua, it's a haven
+                  for thrill-seekers and nature lovers alike. Each corner of this island nation offers a unique dance of earth, water,
+                   and sky, promising unforgettable experiences for every intrepid soul.</p>
+            
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+            <td>
+                <h3>9.Iceland-For the offbeat traveller</h3>
+                <div class="pic" >
+            <img src="https://cdn.britannica.com/06/171306-050-C88DD752/Aurora-borealis-peninsula-Snaefellsnes-Iceland-March-2013.jpg">
+                
+            <p>Iceland, a realm of stark contrasts, beckons the offbeat traveller with its fiery volcanoes and glacial landscapes. From 
+                the ethereal glow of the Northern Lights to the geothermal springs of the Blue Lagoon, it offers an otherworldly escape.
+                 Its rugged terrains, dotted with waterfalls and geysers, promise an experience unlike any other. For those seeking paths
+                  less trodden and nature in its rawest form, Iceland is the ultimate destination.</p>
+            
+        
+            <button style="color:white; background-color: red;width:100px; height:30px; border-radius: 20%;">READ MORE</button>
+                </div>
+            </td>
+           
+        </tr>
+       </table>
+    </div>
+    <!-- Blog -->
+    <div id="Blog" class="post">
+      <section class="section">
+       <h1>MY Blog photos</h1>
+       <div class="space">
+        <div class="left">
+            <div class="card">
+                <h2></h2>
+                <h4>Only going places that spark joy. january 10,2018
+                </h4>
+                <img src="https://media.istockphoto.com/id/1472366256/photo/latin-woman-visiting-beautiful-town-in-cinque-terre-coast-italy.jpg?s=1024x1024&w=is&k=20&c=3B45I87T61jpMlpCsz2fohdHWlMAicFk_um5Q7EpyO8=">
+                <p>ravel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
+        </div>
+        <div class="card">
+            <h2></h2>
+            <h4>Take only pictures, leave only footprints.December 14,2019</h4>
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80">
+             <p>Up in the clouds, on my way to unknown things. Travel doesn't become an adventure, until you leave yourself behind. Happiness is landing in a new country. At the end of the day, it's all about dirty feet, messy hair, and sparkling eyes.</p>
+    </div>
+        </div>
+        <div class="right">
+            <div class="card">
+            <h4>About Me</h4>
+            <img src="https://png.pngtree.com/background/20230614/original/pngtree-cute-girl-painting-wallpapers-anime-watercolor-girl-picture-image_3538357.jpg">
+            <p>My name is ChennuBhavani Devulapally.Im a travel blogger,I just love to travel because it makes me realize that the world is so beautiful 
+                and there is so much to admire and treasure.</p>
+        </div>
+        <div class="card">
+            <h4>Popular post</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbtT6Gp5J6nPMo_Tcs9DHBou0l8yMG2VSrKUqfiiUSQiKWsdSzxmtSBV0qHbn4a_9cOwY&usqp=CAU">
+            <img src="https://media.istockphoto.com/id/1414990095/photo/sitting-on-the-scooter-with-shopping-bags-beautiful-young-woman-is-outdoors.jpg?s=612x612&w=0&k=20&c=pGCYcnM3-S0TSSIi8zgqQ5gznBLYJgiOEz6VvAwWa3s=">
+            <img src="https://media.istockphoto.com/id/1256691476/photo/woman-in-straw-hat-and-pink-protective-mask-walks-down-the-street-with-a-suitcase.jpg?s=612x612&w=0&k=20&c=Hmi5KaRT--KyV5GH2jqpD-oh5VUIE65W4BGFlzSqOAI=">
+
+        </div>
+        <div class="card">
+            <h4>Follow Me</h4>
+            <p>On Instagram:<i>@beautifuldestinations</i></p>
+            <P>ON Facebook:<i>@Thrill Seeker Travels</i></P>
+        </div>
+        </div>
+       </div>
+      </section>
+    </div>
+    <footer id="Contact">
+        <div class="storage">
+            <div class="left-side">
+              <h4>contact us</h4>
+              <p> email:chennubhavnichennu@gmail.com</p>
+              <p>Phone:8912764634</p>
+              <p>Come Travel with us</p>
+            </div>
+            <div class="right-side">
+                
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
