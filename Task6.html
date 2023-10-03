@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color:cadetblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            border:2px solid black;
+            background-color:darkslategray;
+            width: 370px;
+            height:470px;
+            padding:30px;
+            margin:50px 350px;
+        }
+        h1{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <centre>
+    <h1>Registration Form</h1>
+    <div class="container">
+        <form>
+         <label> Name:</label>
+         <input type="text" required placeholder="Participant name"><br/><br/>
+         <label>Email:</label>
+         <input type="email" required placeholder="Participant email"><br/><br/>
+         <label> Phone:</label>
+         <input type="number" required placeholder="Participant ph:no"><br/><br/>
+         <label> Affiliation:</label>
+         <input type="text" required placeholder="Participant Affiliation"><br/><br/>
+          <h3>Dietary Preferences</h3>      
+         <input type="checkbox" value="Vegetarian">
+        <label for="Vegetarian">Vegetarian</label>
+        <input type="checkbox" value="Vegan">
+        <label for="Vegan">Vegan</label>
+        <input type="checkbox" value="Gluten-free">
+        <label for="Gluten-free">Gluten-free</label>
+         <h3>preferred workshop</h3>
+         <label for="workshop">workshop:-
+         </label>
+         <select name="work">
+          <option value="   "></option>
+          <option value="abcd">Panel Discussions</option>
+          <option value="abcd">Poll Questions</option>
+          <option value="abcd">The Solution Room</option> 
+          <option value="abcd">Discussion Circle</option>
+         </select>
+
+          <h3>registration type</h3>
+          <input type="radio" value="General Attendee">
+        <label for="General Attendee">General Attendee</label>
+        <input type="radio" value="Student">
+        <label for="Student">Student</label>
+        <input type="radio" value="VIP">
+        <label for="VIP">VIP</label>
+         
+        <br/><br/>
+        <button>SUBMIT</button>
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+    </centre>
+</body>
+</html>
