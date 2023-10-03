@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Task1-1</title>
+    <script src="https://kit.fontawesome.com/390578bbab.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            background-color:#262525;
+            width:100%
+        }
+        .container{
+            display: flexbox;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top:200px;
+            margin-left:400px;
+        }
+         .fa-solid{
+            color:black;
+            width:200px;
+            height:30px;
+            background-color:darkgoldenrod;
+            text-align:center;
+           padding:2px;
+          
+        } 
+       
+        .dropdownmenu ul, .dropdownmenu li{
+            margin:0;
+            padding:0;
+            border:1px solid black;
+            width:200px;
+            height:30px;
+
+        }
+      
+        .dropdownmenu li{
+            float:left;
+            position: relative;
+        }
+        .dropdownmenu i{
+        
+            display:block;
+
+        }
+       
+       #submenu{
+        left:0;
+        opacity:0;
+        position: absolute;
+        visibility: hidden;
+        z-index:1;
+        color:darkgoldenrod;
+
+       }
+       
+       li:hover ul#submenu{
+        opacity:1;
+        visibility: visible;
+       }
+       #submenu li{
+        float:none;
+        width:200px;
+
+       }
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dropdownmenu">
+ <ul>
+     <li><i class="fa-solid fa-user">profile</i>
+         <ul id="submenu">
+            <li style="width:200px; height:30px;background-color:black; font-family: 'Times New Roman', Times, serif;">posts</li>
+            <li style="width:200px; height:30px;background-color:black; font-family: 'Times New Roman', Times, serif;">pictures</li>
+         </ul>
+    </li>
+    
+     <li><i class="fa-solid fa-envelope">Messages</i>
+           <ul id="submenu">
+            <li style="width:200px; height:30px;background-color:black; font-family: 'Times New Roman', Times, serif;">New</li>
+            <li style="width:200px; height:30px;background-color:black; font-family: 'Times New Roman', Times, serif;">spent</li>
+            <li style="width:200px; height:30px;background-color:black; font-family: 'Times New Roman', Times, serif;">spam</li>
+           </ul>
+    </li>
+    <li><i class="fa-solid fa-gear">Settings</i>
+          <ul id="submenu">
+            <li style="width:200px; height:30px;background-color:black; font-family: 'Times New Roman', Times, serif;">password</li>
+            <li style="width:200px; height:30px;background-color: black; font-family: 'Times New Roman', Times, serif;">language</li>
+          </ul>
+    </li>
+            <li><i class="fa-solid fa-right-from-bracket">Logout</i></li> 
+ </ul>
+        </div>
+   
+    
+</div>
+
+
+
+    
+    
+
+</body>
+</html>
