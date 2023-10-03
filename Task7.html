@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script src="https://kit.fontawesome.com/390578bbab.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:sans-serif;
+        }
+        body{
+            background-color: darkgray;
+        }
+        input{
+            display: none;
+        }
+        .container{
+            width:100%;
+            text-align: center;
+        }
+        h1{
+            font-weight:normal;
+            font-size:35px;
+            position: relative;
+            margin:40px 0;
+        }
+        .navigation{
+            width:80%;
+            border:2px solid black;
+            margin:auto;
+            margin-top:40px;
+            background-color: darkslategray;
+        }
+        .navigation > ul{
+            list-style: none;
+            display:flex;
+            justify-content: space-around;
+        }
+        .navigation >ul >li {
+            width:100px;
+        }
+        .navigation > ul > li > a{
+            text-decoration: none;
+            display:block;
+            height:50px;
+            line-height:50px;
+            color:white;
+            
+        }
+        .fa-solid{
+            color:white;
+        }
+        .wild{
+            border:1px solid black;
+            width:100%;
+            height:650px;
+            align-items: center;
+            text-align: center;
+        }
+        .b-ani{
+            border:1px solid black;
+            width:100%;
+            height:450px;
+            align-items: center;
+            text-align: center;
+        }
+        .water{
+            border:1px solid black;
+            width:100%;
+            height:450px;
+            align-items: center;
+            text-align: center;
+        }
+        .pic-ani{
+            display:inline;
+        }
+        img{
+            width:250px;
+            height:250px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+       <h1>Animal World photo Gallery</h1>
+       <div class="top-content">
+        <h3>Photo Gallery</h3>
+        <nav class="navigation">
+                    
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-feather-pointed">Animalworld</i></a></li>
+            <li><a href="#All photos">All photos</a></li>
+            <li><a href="#WildAnimals">WildAnimals</a></li>
+            <li><a href="#Birds">Birds</a></li>
+            <li><a href="#Aquatic">Aquatic</a></li>
+            
+        </ul>
+        </nav>
+       </div>
+       <div id="All photos" class="photo-gallery">
+        <div class="pic-ani">
+           
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGOsaw2YhL18Tg_blBNR_6htXhhMVKq94EW-o_065dsPkwxxa3tZAjj-exRHfS_a8iFI&usqp=CAU">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLEzBVBjY2WjNPrjw1EQki1XXy0NLWZRVW7w&usqp=CAU">
+
+            <img src="https://www.indiamapped.com/national-symbols-of-india/images/Dolphins.jpg">
+
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202307/birds-051116-16x9.jpg?VersionId=hmSVQ7BuHxpE1cIhuswjQ5sfX81yGW3v&size=690:388">
+
+            <img src="https://www.adventurenation.com/blog/wp-content/uploads/2014/07/Giraffe.jpg">
+
+            <img src="https://www.cbc.ca/natureofthings/content/legacy/aginginthewild_1920.jpg">
+
+            <img src="https://www.newsonline.media/wp-content/uploads/2021/06/neelkanth-bird.png">
+
+            <img src="https://customsitesmedia.usc.edu/wp-content/uploads/sites/59/2019/11/16024710/Taiwan-Blue-Magpie-web.jpg">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8aYOrMgP9YvgrAIbZjRO5gCN3aWia5sQodQ&usqp=CAU">
+
+            <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/14632/production/_111860538_gettyimages-1129310243.jpg">
+
+            <img src="https://cdn.cdnparenting.com/articles/2019/06/01154838/Parrot-Facts-for-Kids-1115777186-1024x700.webp">
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT68VNS_mBHX_lDI54ZyLQo0GlqxlYrdi098w&usqp=CAU">
+            
+            <img src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg">
+
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRECKlwMcYJPVHmEDoDE1sB444TmYWS2ssaw&usqp=CAU">
+
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRw6UkrCTcwXGTDIPVa4_4dy40PI3221pVArmqDGBlCV2sOP0CvV4rC5txNttcAjpF-O0&usqp=CAU">
+        </div>
+
+       </div>
+       <div id="WildAnimals" class="wild">
+           <h1>Wild Animals</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGOsaw2YhL18Tg_blBNR_6htXhhMVKq94EW-o_065dsPkwxxa3tZAjj-exRHfS_a8iFI&usqp=CAU">
+
+        <img src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg">
+
+        <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/14632/production/_111860538_gettyimages-1129310243.jpg">
+        <img src="https://www.cbc.ca/natureofthings/content/legacy/aginginthewild_1920.jpg"> 
+        <img src="https://www.adventurenation.com/blog/wp-content/uploads/2014/07/Giraffe.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLEzBVBjY2WjNPrjw1EQki1XXy0NLWZRVW7w&usqp=CAU">
+       </div>
+       <div id="Birds" clas="b-ani">
+        <h1>Birds</h1>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRw6UkrCTcwXGTDIPVa4_4dy40PI3221pVArmqDGBlCV2sOP0CvV4rC5txNttcAjpF-O0&usqp=CAU">
+         <img src="https://cdn.cdnparenting.com/articles/2019/06/01154838/Parrot-Facts-for-Kids-1115777186-1024x700.webp">
+         <img src="https://customsitesmedia.usc.edu/wp-content/uploads/sites/59/2019/11/16024710/Taiwan-Blue-Magpie-web.jpg">
+         <img src="https://www.newsonline.media/wp-content/uploads/2021/06/neelkanth-bird.png">
+         <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202307/birds-051116-16x9.jpg?VersionId=hmSVQ7BuHxpE1cIhuswjQ5sfX81yGW3v&size=690:388">
+       </div>
+       <div id="Aquatic" class="water">
+        <h1>Aqua animals</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT68VNS_mBHX_lDI54ZyLQo0GlqxlYrdi098w&usqp=CAU">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8aYOrMgP9YvgrAIbZjRO5gCN3aWia5sQodQ&usqp=CAU">
+        <img src="https://www.indiamapped.com/national-symbols-of-india/images/Dolphins.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRECKlwMcYJPVHmEDoDE1sB444TmYWS2ssaw&usqp=CAU">
+       </div>
+    </div>
+</body>
+</html>
